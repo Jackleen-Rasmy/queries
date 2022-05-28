@@ -1,5 +1,5 @@
 /*  Q1 */
-SELECT orderNumber,SUM(priceEach) FROM `orderdetails` GROUP BY orderNumber;
+SELECT orderNumber,SUM(priceEach) AS totalAmount FROM `orderdetails` GROUP BY orderNumber;
 
 
 
